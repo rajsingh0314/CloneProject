@@ -8,6 +8,7 @@
     width: 100%;
     height: 100h;
     font-family: 'Montserrat', sans-serif;
+    overflow:auto;
 }
 
 header{
@@ -71,6 +72,12 @@ header{
     color: white;
     transition-delay:0.1s;
 }
+
+@media screen and (max-width:515px){
+    .box{
+       display: none;
+
+    }
 
 .box:hover{
     background-color: #ed3d3d;
